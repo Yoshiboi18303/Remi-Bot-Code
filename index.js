@@ -6,6 +6,7 @@ const bot = new Discord.Client({ disableEveryone: true });
 
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
+const prefix = botconfig.prefix;
 
 fs.readdir("./commands/", (err, files) => {
   if (err) console.log(err);
@@ -26,15 +27,33 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 bot.on("ready", async () => {
+  function status() {
+
+    // we no longer use the status set in config.json
+    let statusList = [
+        `${prefix}help | Revamped`,
+        `With ${bot.guilds.cache.size} servers | ${prefix}help`,
+        `With ${bot.users.cache.size} users`,
+        `with Robux in ${bot.guilds.cache.size} servers`,
+        `${prefix}help | ${bot.guilds.cache.size} servers`,
+        `${prefix}help | ${bot.users.cache.size} users`
+    ];
+
+    let index = Math.floor(Math.random() * (statusList.length - 1) + 1);
+    bot.user.setActivity(statusList[index]);
+}
   
-  bot.user.setStatus("online");
-
-  bot.user.setActivity(`for Robux;help - (made by) Yoshiboi_Development`, { type: "WATCHING" });
-
+  // bot.user.setStatus("online");
+  // bot.user.setActivity(`revamped!`, { type: "PLAYING" });
+  
+  // This runs the status() function and sets bot status. (Cycles status's every 10s)
+  setInterval(() => {
+    status();
+  }, 10000);
+  
   bot.on("message", async message => {
     if (message.author.bot) return;
     if (message.channel.type === "dm") return;
-    let prefix = botconfig.prefix;
     let messageArray = message.content.split(" ");
     let args = message.content
       .slice(prefix.length)
