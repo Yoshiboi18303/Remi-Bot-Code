@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
         let timeEmbed = new Discord.MessageEmbed()
         .setColor("#FF0000")
         .setFooter(`${message.author.username} just tried Doing something in their sleep | This bot was made by Yoshiboi_Development`)
-        .setDescription(`<:RobuxBot_Cross:833733415789527120> Hey dude, you have already did Roblox once, you should sleep (don't work as late as my developer/owner lmao).\n\nTry working again in ${time.minutes}m ${time.seconds}s. I would recommend using some of the other commands on this bot in your downtime.`);
+        .setDescription(`<:RobuxBot_Cross:833733415789527120> Hey dude, you have already did Roblox once, you should sleep.\n\nTry working again in ${time.minutes}m ${time.seconds}s. I would recommend using some of the other commands on this bot in your downtime.`);
         message.channel.send(timeEmbed)
 
       } else {
@@ -40,5 +40,5 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.help = {
   name:"roblox",
-  aliases: ["game","work","create","money","get_money","imagination",]
+  aliases: ["game","work","create","money","get_money","imagination",'play',]
 }
