@@ -5,7 +5,15 @@ Here's all of the code that makes **RobuxBot** tick!
 
 # About RobuxBot
 **RobuxBot** is a Basic Economy Bot with Roblox Stuff + **Secrets**
-**RobuxBot** started as a Basic Bot on Glitch, and then has Evolved to being coded in Collaboration with [Fearful](https://discord.gg/Pzmqht44), and is now hosted! Really proud of it being hosted, and feel great with it!
+**RobuxBot** started as a Basic Bot on Glitch, and then has Evolved to being coded in Collaboration with Fearful (links in a second), and is now hosted! Really proud of it being hosted, and feel great with it!
+
+# Fearfuls' Links
+
+[Discord Server](https://discord.gg/79C42GzzEC)
+
+-------------------------------------------------------------
+
+[GitHub Profile](https://github.com/FearOfficial)
 
 -------------------------------------------------------------
 
