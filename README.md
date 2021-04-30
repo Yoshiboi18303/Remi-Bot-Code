@@ -1,14 +1,14 @@
-# Welcome to the RobuxBot Open-Source Code on GitHub!
-Here's all of the code that makes **RobuxBot** tick!
+# Welcome to the Remi Open-Source Code on GitHub!
+Here's all of the code that makes **Remi** tick!
 
 ------------------------------------------------------------
 
-# About RobuxBot
-**RobuxBot** is a Basic Economy Bot with Roblox Stuff + **Secrets**
+# About Remi
+**Remi** is a Basic Economy Bot with Roblox Stuff + **Secrets**
 
 ------------------------------------------------------------
 
-**RobuxBot** started as a Basic Bot on Glitch, and then has Evolved to being coded in Collaboration with Fearful (links in a second), and is now hosted! Really proud of it being hosted, and feel great with it!
+**Remi** started as a Basic Bot on Glitch, and then has Evolved to being coded in Collaboration with Fearful (links in a second), and is now hosted! Really proud of it being hosted, and feel great with it!
 
 # Fearfuls' Links
 
