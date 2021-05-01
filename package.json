@@ -18,9 +18,12 @@
     "fs": "^0.0.2",
     "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
+    "node-os-utils": "^1.3.5",
+    "os": "^0.1.1",
     "parse-ms": "^2.1.0",
     "pm2": "^4.5.6",
-    "quick.db": "^7.1.2"
+    "quick.db": "^7.1.2",
+    "winston": "^3.3.3"
   },
   "engines": {
     "node": "12.x"
@@ -35,5 +38,3 @@
     "express"
   ]
 }
-
-// Ignore the Glitch stuff, this was originally Coded in Glitch.
