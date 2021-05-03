@@ -42,6 +42,6 @@ Glitch: [Image](https://pasteboard.co/JZ1GzdH.png)
 Anyway, thanks for reading all this, and have a great time looking at all this Code!
 
 If anything happen to Remi [Click Here](https://discord.gg/AMujeGEmCq) to join our Support Server
-Or [Check Out](https://yoshiboi-development-status.statuspage.io/) Our Statuspage (as the downtime is said and done there)
+Or [Check Out](https://yoshiboi-development-status.statuspage.io/) Our Statuspage (as the downtime is (mostly) said and done there)
 
 PS: If there's anything I missed, please [email us](mailto:yoshiboi18303.bot.web.development@gmail.com), or DM Yoshiboi18303#4045 on Discord!
