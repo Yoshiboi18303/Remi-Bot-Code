@@ -45,3 +45,6 @@ If anything happen to Remi [Click Here](https://discord.gg/AMujeGEmCq) to join o
 Or [Check Out](https://yoshiboi-development-status.statuspage.io/) Our Statuspage (as the downtime is (mostly) said and done there)
 
 PS: If there's anything I missed, please [email us](mailto:yoshiboi18303.bot.web.development@gmail.com), or DM Yoshiboi18303#4045 on Discord!
+
+![image](https://user-images.githubusercontent.com/73009565/116881601-73035b80-abf1-11eb-8dbc-71f44487dd8d.png)
+
