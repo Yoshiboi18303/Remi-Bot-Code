@@ -112,8 +112,8 @@ client.on('ready', async () => {
   fatesHook.on('vote', async v => {
     await client.users.fetch(v.voter.id).then((user) => {
       let embed = new MessageEmbed()
-      .setTitle(`${client.user.username} - Vote Rewards`)
-      .setDescription(stripIndents`
+        .setTitle(`${client.user.username} - Vote Rewards`)
+        .setDescription(stripIndents`
         Thank you for voting for me!
         You have been rewarded with the following items:
         +\`${settings.client.rewards.voting_money}\` rCoins!
@@ -137,6 +137,7 @@ client.on('message', message => {
     return message.reply('I can\'t execute that command inside DMs!');
   }
 
+  // We need to fix beg.js if we haven't yet.
   // Check if args are required
   if (command.args && !args.length) {
     let reply = `You didn't provide any arguments, ${message.author}!`;
@@ -152,6 +153,10 @@ client.on('message', message => {
   if (!cooldowns.has(command.name)) {
     cooldowns.set(command.name, new Discord.Collection());
   }
+
+  let now = Date.now();
+  let timestamps = cooldowns.get(command.name);
+  let cooldownAmount = (command.cooldown || 3) * 1000;
 
   // Logging / Error Handler
   client.on('error', e => {
@@ -175,7 +180,7 @@ client.on('message', message => {
           *This error occured while running the command: \`${command.name}\`*
       `)
   });
-  process.on('uncaughtException', (ue) => { 
+  process.on('uncaughtException', (ue) => {
     logger.log('error', ue);
     message.channel.send(stripIndents`
       **Error:**
@@ -185,10 +190,6 @@ client.on('message', message => {
       *This error occured while running the command: \`${command.name}\`*
     `)
   });
-
-  let now = Date.now();
-  let timestamps = cooldowns.get(command.name);
-  let cooldownAmount = (command.cooldown || 3) * 1000;
 
   if (timestamps.has(message.author.id)) {
     let expirationTime = timestamps.get(message.author.id) + cooldownAmount;
@@ -237,7 +238,6 @@ client.on('message', message => {
           This should not have happened, please report this error here: <https://discord.gg/HCzrjWkv73>
           *This error occured while running the command: \`${command.name}\`*
         `)
-      // console.log('this');
     }
   }
 
