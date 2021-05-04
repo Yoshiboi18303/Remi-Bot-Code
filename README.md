@@ -46,5 +46,12 @@ Or [Check Out](https://yoshiboi-development-status.statuspage.io/) Our Statuspag
 
 PS: If there's anything I missed, please [email us](mailto:yoshiboi18303.bot.web.development@gmail.com), or DM Yoshiboi18303#4045 on Discord!
 
+Infinity Bot List Widget (Remi)
+
 ![image](https://user-images.githubusercontent.com/73009565/116881601-73035b80-abf1-11eb-8dbc-71f44487dd8d.png)
+
+Infinity Bot List Widget (Remi Sounds)
+
+![image](https://user-images.githubusercontent.com/73009565/117049685-79bdcb80-ace2-11eb-92a5-862ef82ad574.png)
+
 
