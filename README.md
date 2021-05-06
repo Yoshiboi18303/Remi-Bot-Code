@@ -54,4 +54,6 @@ Infinity Bot List Widget (Remi Sounds)
 
 ![image](https://user-images.githubusercontent.com/73009565/117049685-79bdcb80-ace2-11eb-92a5-862ef82ad574.png)
 
+Boat Space Widget (Remi)
 
+[![BoatSpace Widget](https://boatspace.xyz/api/bots/819225480635875359/widget)](https://boatspace.xyz/bots/819225480635875359)
