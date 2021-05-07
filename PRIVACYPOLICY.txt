@@ -1,0 +1,22 @@
+1) The data we collect
+       2) Why do we need the data?
+       3) How do we use the data?
+       4) Do we share this info?
+       5) Is my data safe?
+       6) How can users contact the developer(s)
+       7) How can users have their data removed
+       ---------------------------
+       1) We collect the following:
+       • A servers member cache (Member list + User Info [ID, Discriminator, etc]) / (server members / downloads entire member list)
+       ---------------------------
+       2) We need this data to provide accurate information via commands and more flexible features.
+       ---------------------------
+       3) We use this data in a variety of our commands, in order to provide the most comfortable user experience
+       ---------------------------
+       4) We don't share this data with nor allow access to anyone besides the developer(s).
+       ---------------------------
+       5) Yes! Your data is 100% safe. We guarantee the security of all info collected. This info is stored on a local database secured behind a VPS (Virtual Private Server)\nThis of which is impossible to access without a developer(s) grant.
+       ---------------------------
+       6) Through the bot itself, we provide linking to the home (support) server where the staff and developers reside, there you can request a presence / meet with them.
+       --------------------------
+       7) As mentioned about, this will be done through a presence / meet with the developer(s)
