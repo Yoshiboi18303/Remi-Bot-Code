@@ -15,9 +15,9 @@
        ---------------------------
        4) We don't share this data with nor allow access to anyone besides the developer(s).
        ---------------------------
-       5) Yes! Your data is 100% safe. We guarantee the security of all info collected. This info is stored on a local database secured behind a VPS (Virtual Private            Server)
+       5) Yes! Your data is 100% safe. We guarantee the security of all info collected. This info is stored on a local database secured behind a VPS (Virtual Private     Server)
        This of which is impossible to access without a developer(s) grant.
        ---------------------------
-       6) Through the bot itself, we provide linking to the home (support) server where the staff and developers reside, there you can request a presence / meet with            them.
+       6) Through the bot itself, we provide linking to the home (support) server where the staff and developers reside, there you can request a presence / meet with      them.
        --------------------------
        7) As mentioned about, this will be done through a presence / meet with the developer(s)
