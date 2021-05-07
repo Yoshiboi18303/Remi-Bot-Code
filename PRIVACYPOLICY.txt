@@ -1,4 +1,4 @@
-1) The data we collect
+       1) The data we collect
        2) Why do we need the data?
        3) How do we use the data?
        4) Do we share this info?
