@@ -1,8 +1,60 @@
 {
     "client": {
-        "prefix": "r;"
+        "prefix": "r;",
+        "version": "v3.0.0",
+        "rewards": {
+            "voting_money": "5000"
+        }
     },
     "staff": {
-        "owner": "697414293712273408"
+        "owner": "697414293712273408",
+        "co_owner": "626896893091512320",
+        "admin": "683530527239962627",
+        "support": [
+            "683530527239962627",
+            "271285474516140033"
+        ]
+    },
+    "partners": {
+        "bots": {
+            "fear": {
+                "owner": "683530527239962627",
+                "discord": "https://discord.gg/ruFcB7Q4YD",
+                "bot": "Fear#7827"
+            },
+            "botexe": {
+                "owner": "271285474516140033",
+                "discord": "https://discord.gg/C9jWVwT9cZ",
+                "bot": "Bot.exe#8033"
+            },
+            "backupbotexe": {
+                "owner": "271285474516140033",
+                "discord": "https://discord.gg/C9jWVwT9cZ",
+                "bot": "Backup-Bot.exe#5137"
+            },
+            "remimus": {
+                "owner": "697414293712273408, 683530527239962627",
+                "discord": "https://discord.gg/AMujeGEmCq",
+                "bot": "Remi Sounds#8330"
+            }
+        },
+
+        "servers": {
+            "fateslist": {
+                "server_id": "789934742128558080",
+                "owner": "428292404160757760",
+                "discord": "https://discord.gg/gjSCA5j8MF"
+            },
+            "infinitybotlist": {
+                "server_id": "758641373074423808",
+                "owner": "510065483693817867, 486659270876856362",
+                "discord": "https://discord.gg/vJDUqKdp7b"
+            },
+            "boatspace": {
+                "server_id": "609125459690651649",
+                "owner": "242734840829575169",
+                "discord": "https://discord.gg/kSBazahjsF"
+            }
+        }
     }
 }
