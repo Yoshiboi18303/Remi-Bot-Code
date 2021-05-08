@@ -10,6 +10,13 @@ Here's all of the code that makes **Remi** tick!
 
 **Remi** started as a Basic Bot on Glitch, and then has Evolved to being coded in Collaboration with Fearful (links in a second), and is now hosted! Really proud of it being hosted, and feel great with it!
 
+------------------------------------------------------------
+
+## Remi Website
+Remi now has a website! Check it out [here](https://remi-ai.tk/)!
+
+------------------------------------------------------------
+
 # Fearfuls' Links
 
 [Discord Server](https://discord.gg/79C42GzzEC)
